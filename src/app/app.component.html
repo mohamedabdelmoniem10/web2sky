@@ -1,0 +1,6 @@
+<app-navbar></app-navbar>
+<div class="clearfix"></div>
+<app-carousel *ngIf="!home"></app-carousel>
+<p *ngIf="!home">MOniem ❤</p>
+<app-chat *ngIf="!home"></app-chat>
+<router-outlet></router-outlet>

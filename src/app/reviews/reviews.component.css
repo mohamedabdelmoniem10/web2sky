@@ -1,0 +1,184 @@
+
+/*=============== this for navbar ======================================*/
+.navbar{
+    display: flex;
+    background-color: #153641;
+    border: none;
+    border-radius: 0 0 50px 50px; 
+    box-shadow: #90ccc6 0px 4px 0 2px;
+    padding: 0;
+}
+.nav-logo{
+    position: relative;
+    display: inline-block;
+    right: 13%;     /*   you can remove this after impliment the rate */
+}
+.logo-nav{
+    position: absolute;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 9%;
+    padding: 0;
+    margin: 0;
+}
+.logoimg{
+    width: 100px;
+    height: 100px;
+    background-color: #153641;
+    border-radius: 0 0 50% 50%;
+    padding: 19px;
+    position: absolute;
+    top: -7px;
+}
+li{
+    padding: 12px;
+    margin-left: 30px;
+    color: white;
+    font-size: 33px;
+}
+
+
+.whiteclr{
+    color: #fff;
+}
+.whiteclr:hover{
+    color: #b2d6dd;
+}
+a{
+    text-decoration: none;
+}
+.left-nav
+{
+    position: relative;
+    right: 2%;
+}
+
+
+.right-nav
+{
+    position: relative;
+    right: 15%;
+}
+
+.active
+{
+    color: #90ccc6
+}
+
+.border-shape
+{
+    background-color: #90ccc6;
+    border-radius: 0 0 50% 50%;
+    z-index: -50;
+    position: absolute;
+    top: -1%;
+    height: 100px;
+    width: 110px;
+    left: -5px;
+}
+/*=============== this is the end for navbar ======================================*/
+
+
+
+
+
+ /* this is for the heading of the services  */
+.clearfix
+{
+    clear: both;
+}
+/* heading of the section */
+.our-services
+{
+    position: relative;
+    z-index: -100;
+}
+.lamp
+{
+    display: inline-block;
+    width: 20%;
+}
+.rght-serv
+{
+    float: right;
+}
+.lft-serv
+{
+    transform: rotateY(180deg)
+}
+.header-services
+{
+    border: 6px solid #90ccc6;
+    border-radius: 0 0 66px 66px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    margin-top: -4%;
+}
+.heading-ourservices
+{
+    text-align: center;
+    font-size: 85px;
+    font-weight: 600;
+    color: #90ccc6;
+    padding-top: 5%;
+}
+ /* this is for the end heading of the services  */
+
+
+/* this is the content of the review page  */
+.content
+{
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+}
+.man{
+    width: 20%;
+    border-radius: 100%;
+}
+.carousel-caption{
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    color: #000;
+    position: static;
+}
+.carousel
+{
+    margin-top: 50px;
+}
+ngb-carousel{
+    outline: none
+}
+::ng-deep.carousel-control-next-icon {
+    background-image: url(../../assets/next-icon.svg);
+    width: 50px;
+    height: 50px;
+}
+::ng-deep.carousel-control-prev-icon {
+    background-image: url(../../assets/prev-icon.svg);
+    width: 50px;
+    height: 50px;
+}
+/*this is the end of the carousel*/
+
+.review-us
+{
+    margin: 10% 0;
+    font-size: 25px;
+}
+.review-btn
+{
+    font-size: 25px;
+    color: #fff;
+    background-color: #77beb7;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding: 2px 40px;
+    margin: 5%;
+}

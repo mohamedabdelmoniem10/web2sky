@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    background-color: #153641;
+    border: none;
+    border-radius: 0 0 50px 50px; 
+}
+.nav-logo{
+    position: relative;
+    display: inline-block;
+    left: -4%;     /*    you can remove this after impliment the rate */
+}
+.logo-nav{
+    position: absolute;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: -17%;
+}
+.logoweb{
+    width: 100px;
+    height: 100px;
+    background-color: #153641;
+    border-radius: 0 0 50% 50%;
+    padding: 19px;
+    position: absolute;
+    top: -25px;
+    left: -14px;
+}
+li{
+    padding: 12px;
+    margin-left: 30px;
+    color: white;
+    font-size: 33px;
+    padding-top: 5px;
+}
+.rate{
+    width: 13%;
+    position: absolute;
+    top: 27%;
+    left: 85%;
+}
+
+.whiteclr{
+    color: #fff;
+}
+.whiteclr:hover, .whiteclr.active{
+    color: #b2d6dd;
+}
+a{
+    text-decoration: none;
+}
+.with-border{
+    box-shadow: #90ccc6 0px 3px 0px 3px;
+}
+.border-shape
+{
+    background-color: #90ccc6;
+    border-radius: 0 0 50% 50%;
+    z-index: -50;
+    position: absolute;
+    top: -19px;
+    height: 100px;
+    width: 108px;
+    left: -18px;
+}

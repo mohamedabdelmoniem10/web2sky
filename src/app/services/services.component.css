@@ -1,0 +1,189 @@
+
+/*=============== this for navbar ======================================*/
+.navbar{
+    display: flex;
+    background-color: #153641;
+    border: none;
+    border-radius: 0 0 50px 50px; 
+    box-shadow: #90ccc6 0px 4px 0 2px;
+    padding: 0;
+}
+.nav-logo{
+    position: relative;
+    display: inline-block;
+    right: 13%;     /*   you can remove this after impliment the rate */
+}
+.logo-nav{
+    position: absolute;
+}
+ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 9%;
+    padding: 0;
+    margin: 0;
+}
+.logoimg{
+    width: 100px;
+    height: 100px;
+    background-color: #153641;
+    border-radius: 0 0 50% 50%;
+    padding: 19px;
+    position: absolute;
+    top: -7px;
+}
+li{
+    padding: 12px;
+    margin-left: 30px;
+    color: white;
+    font-size: 33px;
+}
+
+
+.whiteclr{
+    color: #fff;
+}
+.whiteclr:hover{
+    color: #b2d6dd;
+}
+a{
+    text-decoration: none;
+}
+.left-nav
+{
+    position: relative;
+    right: 2%;
+}
+
+
+.right-nav
+{
+    position: relative;
+    right: 15%;
+}
+
+.active
+{
+    color: #90ccc6
+}
+
+.border-shape
+{
+    background-color: #90ccc6;
+    border-radius: 0 0 50% 50%;
+    z-index: -50;
+    position: absolute;
+    top: -1%;
+    height: 100px;
+    width: 110px;
+    left: -5px;
+}
+/*=============== this is the end for navbar ======================================*/
+
+
+
+
+
+ /* this is for the heading of the services  */
+.clearfix
+{
+    clear: both;
+}
+/* heading of the section */
+.our-services
+{
+    position: relative;
+    z-index: -100;
+}
+.lamp
+{
+    display: inline-block;
+    width: 20%;
+}
+.rght-serv
+{
+    float: right;
+}
+.lft-serv
+{
+    transform: rotateY(180deg)
+}
+.header-services
+{
+    border: 6px solid #90ccc6;
+    border-radius: 0 0 66px 66px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    margin-top: -4%;
+}
+.heading-ourservices
+{
+    text-align: center;
+    font-size: 85px;
+    font-weight: 600;
+    color: #90ccc6;
+    padding-top: 5%;
+}
+ /* this is for the end heading of the services  */
+
+/* this is for the content of the services */
+.content-section
+{
+    margin: 8%;
+}
+.content
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    padding: 40px; 
+    position: relative;
+    line-height: 1.3; 
+}
+.kalam
+{
+    padding: 10px
+}
+.ftimg
+{
+    width: 130px;
+    margin: 30px;
+}
+.box-header
+{
+    font-size: 1.8em;
+    font-weight: bold;
+    /* font-family: plapla; */
+}
+.clr-bck
+{
+    height: 100%;
+    width: 114%;
+    background-color: #e0eef1;
+    border-radius: 45px 0 0 45px;
+    position: absolute;
+    z-index: -100;
+    margin-left: -71px;
+    top: 7px;
+    transform: skewY(-18deg)rotateZ(18deg);
+}
+.clr-bck-cpy
+{
+    height: 105%;
+    width: 101%;
+    background-color: #e0eef1;
+    border-radius: 45px 0 0 45px;
+    position: absolute;
+    z-index: -100;
+    margin-left: 60px;
+    top: 0%;
+}
+.rght
+{
+    float: right;
+}
+
+/* this is for the content of the services */
+

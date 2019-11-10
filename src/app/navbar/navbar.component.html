@@ -1,0 +1,27 @@
+
+<!--   here my navbar if i wanna to update it or else   -->
+<div class="navbar" [class.with-border]="withBorder">
+    <div class="space"></div>
+    <div class="left-nav">
+        <ul>
+            <li><a class="whiteclr" [routerLinkActive]="'active'" [routerLink]="['/services']">Services</a></li>
+            <li><a class="whiteclr" [routerLinkActive]="'active'" [routerLink]="['/work']">Work</a></li>
+        </ul>
+    </div>
+    <div class="nav-logo">
+            <a [routerLink]="['/']">
+                <div class="border-shape" *ngIf="withBorder"></div>
+            <img class="logoweb" *ngIf="!withBorder" src="../../assets/web2sky logo.svg"> 
+            <img class="logoweb" *ngIf="withBorder" src="../../assets/white web2sky logo.svg"> 
+        </a>
+    </div>
+    <div class="right-nav">
+        <ul>
+            <li><a class="whiteclr" [routerLinkActive]="'active'" [routerLink]="['/reviews']">Reviews</a></li>
+            <li><a class="whiteclr" [routerLinkActive]="'active'" [routerLink]="['/about']">About</a></li>
+        </ul>
+    </div>
+    <div class="rating">
+        <img class="rate" src="../../assets/4 stars.svg" alt="rate">
+    </div>
+</div>

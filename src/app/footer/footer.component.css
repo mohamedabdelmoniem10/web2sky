@@ -1,0 +1,88 @@
+/*======================== this for footer ==========================*/
+
+.footer-section
+{
+    background-color: #153641;
+    color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 13%;
+    border-radius: 50px 50px 0 0;
+}
+.icons-flex
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px 50px;
+}
+.icon
+{
+    width: 47px;
+}
+.social-icon{
+    margin: 19px;
+}
+.social-contacts
+{
+    width: 20%;
+    text-align: center;
+}
+.rating-copyright
+{
+    text-align: center;
+}
+
+.heading-footer
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px;
+    margin-left: 0;
+}
+.copy-right
+{
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 2;
+    margin-top: 18px;
+}
+.footers{
+    margin: 2%;
+    margin-bottom: 1%;
+    width: 29.33333333%;
+    margin-top: 7%;
+}
+.footer-container
+{
+    margin: 0 5%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.white-footer-logo
+{
+    width: 100px;
+    height: 100px;
+    background-color: #153641;
+    border-radius: 50% 50% 0 0;
+    padding: 24px;
+    position: absolute;
+    top: -11%;
+    right: 47%;
+}
+.footer-logo{
+    width: 100%;
+}
+.links a 
+{
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.rate{
+    margin: 30px;
+}

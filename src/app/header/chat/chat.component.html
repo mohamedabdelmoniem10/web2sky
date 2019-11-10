@@ -1,0 +1,30 @@
+
+<div class="chat-logo" (click)="chat($event)">
+    <img src="../../../assets/chat icon.svg" alt="chat">
+</div>
+
+<div class="chat-pop" *ngIf="chatBtn">
+    <div class="close">
+        <img src="../../../assets/x icon.svg" alt="" class="close-img" (click)="closeChat()">
+    </div>
+    <div class="chat-box">
+        <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Create Password">
+            </div>
+            <div class="form-group" *ngIf="signup">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tell us about your business" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" [class.active-btn]="signup" (click)="signUp()">Sign Up</button>
+            <button type="button" class="btn btn-primary" [class.active-btn]="login" (click)="logIn()">Log In</button>
+          </form>
+        
+        <div class="txt">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum ea expedita aliquam eos? Deleniti inventore ipsum placeat animi tempore mollitia pariatur, accusantium exercitationem harum repudiandae? Consequuntur, itaque corrupti. Error, dolores.</p>
+        </div>
+
+    </div>
+</div>
